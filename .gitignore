@@ -1,5 +1,5 @@
 ### https://raw.github.com/github/gitignore/f31b319dca10213163411cb710c27dc37ed3eac5/maven.gitignore
 
 target/
-
+*.log
 
