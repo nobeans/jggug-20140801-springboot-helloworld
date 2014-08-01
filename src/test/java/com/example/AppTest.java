@@ -22,7 +22,7 @@ import static org.junit.Assert.*;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = App.class)
 @WebAppConfiguration
-@IntegrationTest("server.port:0")
+@IntegrationTest({"server.port=1110", "logging.file=test.log"})
 public class AppTest extends TestCase {
 
     @Value("${local.server.port}")
